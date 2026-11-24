@@ -5,7 +5,6 @@ import java.io.InputStream;
 import java.time.Duration;
 import java.util.Properties;
 
-/** System properties override classpath defaults without editing the project. */
 public final class Config {
     private static final Properties DEFAULTS = load();
 

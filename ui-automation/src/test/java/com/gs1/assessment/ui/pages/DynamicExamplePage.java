@@ -20,7 +20,6 @@ public final class DynamicExamplePage extends BasePage {
     }
 
     public DynamicExamplePage awaitCompletion() {
-        // Visibility of the result proves completion even if the spinner was too brief to observe.
         visible(RESULT);
         wait.until(ExpectedConditions.invisibilityOfElementLocated(LOADING));
         return this;

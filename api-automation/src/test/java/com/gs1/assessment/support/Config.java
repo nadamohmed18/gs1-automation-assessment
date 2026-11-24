@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-/** System properties override classpath defaults without editing the project. */
 public final class Config {
     private static final Properties DEFAULTS = load();
 

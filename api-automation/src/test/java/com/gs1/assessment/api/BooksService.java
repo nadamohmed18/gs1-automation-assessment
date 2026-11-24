@@ -12,7 +12,6 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import static io.restassured.RestAssured.given;
 
-/** Owns HTTP configuration and endpoint paths; test classes own assertions. */
 public final class BooksService {
     private static final String BOOKS = "/api/v1/Books";
     private final RequestSpecification specification;

@@ -35,7 +35,6 @@ public abstract class UiTestBase {
         }
     }
 
-    /** Optional viewing time for a human demonstration; never used for synchronization. */
     protected void demonstrate(String message) {
         Reporter.log("[UI STEP] " + message, true);
         long pauseMillis = Long.parseLong(System.getProperty("demo.pauseMillis", "0"));

@@ -21,6 +21,5 @@ public final class CreateBookTest extends BooksTestBase {
                 .body("excerpt", equalTo(expected.excerpt())).extract().as(Book.class);
         assertEquals(OffsetDateTime.parse(actual.publishDate()).toInstant(),
                 OffsetDateTime.parse(expected.publishDate()).toInstant(), "Returned publication instant");
-        // No dependent GET or cleanup: FakeRESTApi simulates creation and does not promise persistence.
     }
 }
