@@ -1,0 +1,12 @@
+{
+  "existingBook": { "id": 1, "title": "Book 1", "pageCount": 100 },
+  "newBook": {
+    "id": 900001,
+    "title": "GS1 Automation Assessment",
+    "description": "A book used to verify the create response contract.",
+    "pageCount": 120,
+    "excerpt": "Reusable automation with meaningful assertions.",
+    "publishDate": "2026-01-15T10:00:00Z"
+  },
+  "missingBook": { "id": 0, "status": 404, "title": "Not Found" }
+}

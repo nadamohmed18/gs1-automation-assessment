@@ -1,0 +1,9 @@
+{
+  "upload": {
+    "resource": "fixtures/upload-image.png",
+    "successHeading": "File Uploaded!"
+  },
+  "dynamicLoading": {
+    "expectedText": "Hello World!"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "folders": [
+    { "name": "Task 1 - UI Automation", "path": "ui-automation" },
+    { "name": "Task 2 - API Automation", "path": "api-automation" }
+  ]
+}
